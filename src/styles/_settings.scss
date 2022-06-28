@@ -2,7 +2,7 @@
 
 $font-1:"Poppins", sans-serif;
 $color-1: #61dafb;
-$color-2: #f7f7f7;
+$color-2: white;
 $color-1: #282c34;
 $color-3: rgb(3,35,42);
 body {
@@ -30,4 +30,8 @@ a {
 
 a:visited{
     color: $color-3;
+}
+img {
+   width: 30%;
+   height: 10%;
 }

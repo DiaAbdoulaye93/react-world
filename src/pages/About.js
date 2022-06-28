@@ -1,8 +1,10 @@
+import Logo from "../componnents/Logo";
 import Navigation from "../componnents/Navigation";
 
 const About = () => {
     return (
         <div className="about">
+          
             <Navigation />
             La page À propos de nous de laye s’ouvre sur sa mission et
             se transforme directement en histoire de l’entreprise.

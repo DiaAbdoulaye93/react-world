@@ -61,12 +61,12 @@
         }
 
         li {
-            font-size: 0.08rem;
+            font-size: 0.5rem;
             z-index: 30;
 
             &:nth-child(1) {
                 font-weight: bold;
-                color: $color-1
+                color: $color-2
             }
         }
     }

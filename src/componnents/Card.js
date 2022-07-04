@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Card = (props) => {
 
    const country = props.country;
@@ -10,9 +9,10 @@ const Card = (props) => {
          <div className='data-container'>
             <ul>
 
-               <li>{country.name.common}</li>
-               <li>{country.name.common}</li>
-               <li>{country.area}</li>
+               <li>pays : {country.name.common}</li>
+               <li>capital : {country.capital}</li>
+               <li>superficie : {country.area.toLocaleString()}</li>
+               <li>population : {country.population.toLocaleString()}</li>
             </ul>
          </div>
       </li>
